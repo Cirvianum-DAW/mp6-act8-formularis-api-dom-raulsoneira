@@ -1,10 +1,14 @@
-## Formularis amb HTML i JS
+## Formularis amb HTML i JS (+DOM +API)
 
 ## Objectius
 
 Anem a veure algunes de les eines que ens proporciona HTML per a crear formularis i com podem utilitzar JavaScript per a validar-los. A través d'aquest practicarem també aspectes relacionats amb el DOM i els esdeveniments.
 
 També aprofitarem per repassar alguns conceptes d'asincronia fent alguna crida a una API i mostrant el resultat en la pàgina web.
+
+## DEMO DEL QUE FAREM
+
+![Demo](/assets/Demo.gif)
 
 ## Formularis amb JavaScript
 
