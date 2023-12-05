@@ -251,14 +251,10 @@ function validar(contingut) {
 }
 ```
 
-[Referència]()
+[Referència](https://www.sapalomera.cat/moodlecf/apunts/daw/dwec/index.html?cap=74&ref=3470)
 
 Més informació sobr:
 
 - [Guardar arxius](https://www.sapalomera.cat/moodlecf/apunts/daw/dwec/index.html?cap=71&ref=3466)
 - [Carregar arxius](https://www.sapalomera.cat/moodlecf/apunts/daw/dwec/index.html?cap=72&ref=3467)
 - [Enviament i reinici de dades](https://www.sapalomera.cat/moodlecf/apunts/daw/dwec/index.html?cap=73&ref=3468)
-
-```
-
-```
