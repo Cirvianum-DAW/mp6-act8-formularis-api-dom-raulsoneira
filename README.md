@@ -257,8 +257,70 @@ function validar(contingut) {
 
 [Referència](https://www.sapalomera.cat/moodlecf/apunts/daw/dwec/index.html?cap=74&ref=3470)
 
-Més informació sobr:
+Informació addicional:
 
 - [Guardar arxius](https://www.sapalomera.cat/moodlecf/apunts/daw/dwec/index.html?cap=71&ref=3466)
 - [Carregar arxius](https://www.sapalomera.cat/moodlecf/apunts/daw/dwec/index.html?cap=72&ref=3467)
 - [Enviament i reinici de dades](https://www.sapalomera.cat/moodlecf/apunts/daw/dwec/index.html?cap=73&ref=3468)
+
+## Exercici 1 - Validació de Formulari
+
+Us han encarregat desenvolupar la part de validació per a un formulari de registre d'usuari en una pàgina web. El formulari ja ha estat creat i les seves interaccions amb els camps ja estan implementades. Heu d'implementar el vostre propi HTML i el codi JS necessari per que es compleixin els següents requisits:
+
+1. Tots els camps del formulari són obligatoris. Heu de mostrar un missatge d'alerta si algun camp no està omplert.
+
+2. La contrasenya ha de tenir com a mínim 6 caràcters. Heu de mostrar un missatge d'alerta si la contrasenya és massa curta.
+
+3. L'adreça de correu electrònic ha de tenir un format vàlid. Utilitzeu l'expressió regular proporcionada a continuació per validar l'adreça de correu electrònic:
+
+   ```javascript
+   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+   ```
+
+4. L'usuari ha de ser major d'edat per registrar-se. Aquesta validació depèn de la data de naixement proporcionada. Heu de calcular l'edat de l'usuari i mostrar un missatge d'alerta si és menor de 18 anys.
+
+5. El camp del DNI/NIF ha de tenir un format vàlid. Utilitzeu l'expressió regular proporcionada a continuació per validar aquest camp:
+
+   ```javascript
+   const idNumberRegex = /^[0-9A-Za-z]{1,10}$/;
+   ```
+
+6. L'usuari ha de marcar l'opció per acceptar els Termes i Condicions. Heu de mostrar un missatge d'alerta si aquesta opció no està marcada.
+
+Tingueu en compte que heu d'implementar aquestes validacions dins la funció de gestió de l'enviament del formulari (`submit`) ja existent i utilitzar el mateix esquema d'alerta que s'utilitza al codi proporcionat.
+
+---
+
+## Exercici 2 - Consulta el temps meteorològic
+
+Aquí tens l'enunciat de l'exercici per als teus alumnes:
+
+---
+
+**Exercici de Petició a API Meteorològica**
+
+En aquest exercici, heu de desenvolupar una funcionalitat per a la nostra pàgina web que permeti als usuaris obtenir la informació meteorològica actual i la previsió per al dia següent d'una ubicació especificada.
+
+1. Heu de crear un formulari amb els següents camps:
+   - Ciutat: L'usuari ha de poder especificar el nom de la ciutat.
+   - Codi Postal: L'usuari ha de poder especificar el codi postal (opcional).
+   - País: L'usuari ha de poder especificar el nom del país.
+
+2. Heu de realitzar les següents validacions dels camps del formulari:
+   - El camp del ciutat i codi postal són obligatoris. Heu de mostrar un missatge d'alerta si aquest camp està buit.
+
+3. Heu de realitzar una petició a l'API de www.weatherapi.com utilitzant les dades proporcionades pel formulari per obtenir la informació meteorològica. L'API proporciona dades meteorològiques actuals i una previsió per al dia següent.
+
+4. Heu de mostrar la informació obtinguda de l'API a la pàgina web. La informació a mostrar ha de incloure:
+   - Temperatura actual.
+   - Descripció del temps actual.
+   - Icona que representa les condicions meteorològiques actuals.
+   - Temperatura prevista per al dia següent.
+   - Descripció del temps previst per al dia següent.
+   - Icona que representa les condicions meteorològiques previstes per al dia següent.
+
+5. Heu de gestionar els errors de la petició a l'API. Si hi ha algun error en la petició, heu de mostrar un missatge d'error a l'usuari.
+
+
+
+
