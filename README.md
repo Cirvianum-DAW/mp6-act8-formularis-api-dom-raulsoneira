@@ -60,12 +60,12 @@ Com veus hi ha una gran quantitat d'elements que et poden ajudar a definir el te
 
 Aquesta informació es pot enviar a un servidor o ser processada en el mateix client.
 
-[Referència](https://www.w3schools.com/html/html_forms.asp)
-[Referència detallada (MDN)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms)
-[Elements dels formularis](https://www.w3schools.com/html/html_form_elements.asp)
-["input types"](https://www.w3schools.com/html/html_form_input_types.asp)
-["input types" detallada (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
-[Pas a pas (MDN)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form)
+- [Referència](https://www.w3schools.com/html/html_forms.asp)
+- [Referència detallada (MDN)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms)
+- [Elements dels formularis](https://www.w3schools.com/html/html_form_elements.asp)
+- ["input types"](https://www.w3schools.com/html/html_form_input_types.asp)
+- ["input types" detallada (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+- [Pas a pas (MDN)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form)
 
 Accedeix a la carpeta `examples` i obre el fitxer `formularis.html` amb el teu navegador. Aquest fitxer conté una sèrie d'exemples de formularis amb els elements més comuns.
 
