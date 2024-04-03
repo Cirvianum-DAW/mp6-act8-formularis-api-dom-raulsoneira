@@ -212,7 +212,7 @@ Exemple:
 ```javascript
 document.getElementById('edat').setAttribute('required', '');
 let mail = document.getElementById('mail');
-mail.setAttribute('pattern', '(^.*@gmail.com$|^.*@sapalomera.cat$)');
+mail.setAttribute('pattern', '(^.*@gmail.com$|^.*@cirvianum.cat$)');
 ```
 
 #### Validació Manual Abans d'Enviar
