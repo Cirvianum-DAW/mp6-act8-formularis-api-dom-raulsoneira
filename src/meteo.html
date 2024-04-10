@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quin temps fa?</h1>
+        <form id="meteo" novalidate>
+
+            <label for="ciutat">Ciutat:</label>
+            <input type="text" id="ciutat" required>
+
+            <label for="codiPostal">CodiPostal:</label>
+            <input type="text" id="codiPostal" required>
+
+            <label for="pais">País:</label>
+            <input type="text" id="pais" required>
+
+            <button type="submit">Obtenir Informació Meteorològica</button>
+
+        </form>
+
+        <div id="results" class="hidden">
+            <h2 id="location">Localització:</h2>
+            <p id="location-text"></p>
+            <div>
+                <h2>Informació Meteorològica:</h2>
+                <p id="temperature"></p>
+                <p id="weather-description"></p>
+                <img id="weather-icon" src="" alt="Icona Meteorològica">
+            </div>
+            <div>
+                <h2>Previsió per al dia següent:</h2>
+                <p id="tomorrow-temperature"></p>
+                <p id="tomorrow-weather-description"></p>
+                <img id="tomorrow-weather-icon" src="" alt="Icona Meteorològica per al Dia Següent">
+            </div>
+        </div>
+    </div>
+    <script src="meteo.js"> </script>
+</body>
+
+</html>
