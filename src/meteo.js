@@ -63,18 +63,18 @@ document
   });
 
   function displayWeatherResults(weatherData) {
-      // Mostrar la información actual
+      // Mostrar la informació actual
       document.getElementById('location-text').textContent = `${weatherData.current.ciutat}, ${weatherData.current.pais}, ${weatherData.current.regio}`;
       document.getElementById('temperature').textContent = `Temperatura actual: ${weatherData.current.temperatura}`;
       document.getElementById('weather-description').textContent = `Descripció del temps actual: ${weatherData.current.weatherDescription}`;
       document.getElementById('weather-icon').src = weatherData.current.weatherIcon;
   
-      // Mostrar la información de la previsión para el día siguiente
+      // Mostrar la informació de la previsió per el dia següent
       document.getElementById('tomorrow-temperature').textContent = `Temperatura prevista per al dia següent: ${weatherData.forecast.temperatura}`;
       document.getElementById('tomorrow-weather-description').textContent = `Descripció del temps previst per al dia següent: ${weatherData.forecast.weatherDescription}`;
       document.getElementById('tomorrow-weather-icon').src = weatherData.forecast.weatherIcon;
   
-      // Mostrar los resultados
+      // Mostrar els resultats
       document.getElementById('results').classList.remove('hidden');
 }
   
